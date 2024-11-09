@@ -1,0 +1,44 @@
+{
+	"name": "iqnet-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DandPDevs/IQNet-Server.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.1436.0",
+		"bcrypt": "^5.1.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.1",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"ejs": "^3.1.6",
+		"express": "^4.17.2",
+		"express-validator": "^6.14.2",
+		"http-status": "^1.6.2",
+		"joi": "^17.9.2",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.4",
+		"mongoose": "^7.3.2",
+		"multer": "^1.4.4",
+		"multer-s3": "^2.10.0",
+		"nodemailer": "^6.7.7",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"referral-codes": "^2.0.1",
+		"socket.io": "^4.7.2",
+		"swagger-ui-express": "^4.3.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
